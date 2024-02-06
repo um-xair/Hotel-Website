@@ -673,6 +673,12 @@
   }
 
 
+    @media (width > 320px) {
+
+      .section__subheader p{
+        font-size: .5rem;
+      }
+  }
 
 
 
