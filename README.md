@@ -13,9 +13,6 @@ Explore the site here: [Hotel Website Live Demo](https://r4xn.netlify.app/websit
 ## **Features**  
 - 🏡 **Elegant Room Listings** – Browse through different room categories and find the perfect one for your stay.  
 - 📅 **Easy Booking** – A simple and intuitive booking system.  
-- 💳 **Secure Payment Integration** – Book your stay securely and hassle-free.  
-- 🌍 **Interactive Map** – See the hotel's location with ease.  
-- 🛎️ **Customer Service** – Get in touch with the front desk for any inquiries.  
 - 🏖️ **Amenities Overview** – Discover the luxurious amenities and facilities offered.  
 
 ## **Technologies Used**  
