@@ -12,7 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Remove margin/padding from body and html */
         html, body {
             margin: 0;
             padding: 0;
@@ -20,15 +19,12 @@
             width: 100%;
             box-sizing: border-box;
         }
-        
         body {
             font-family: 'Poppins', sans-serif;
         }
-
         .fade-in {
             animation: fadeIn 0.3s ease-in;
         }
-
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -37,31 +33,26 @@
                 opacity: 1;
             }
         }
-
         ::-webkit-scrollbar {
             display: none;
         }
-
         html {
             scroll-behavior: smooth;
         }
-
-        /* Ensure that the main container doesn't overflow */
         main {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Fill the screen height */
+            min-height: 100vh;
             width: 100%;
         }
-
     </style>
 </head>
 <body class="fade-in bg-[#F2F2F2]">
 
-    <div class="flex justify-center px-4">
-        <header id="header" class="bg-white mt-6 lg:w-[70%] w-full flex flex-col items-center justify-between px-10 py-4 rounded-[20px] fixed z-10 transition-opacity duration-500">
+    <div class="flex justify-center">
+        <header id="header" class="bg-white mt-6 lg:w-[70%] w-[90%] flex flex-col items-center justify-between px-10 py-4 rounded-[20px] fixed z-10 transition-opacity duration-500">
             <div class="flex items-center w-full justify-between">
                 <div class="flex items-center">
                     <img src="assets/r4xn-black.png" alt="Logo" class="w-12 h-12">
@@ -243,11 +234,11 @@
             <img id="right" src="assets/video.jpg" alt="Room 3" class="w-full h-auto object-cover lg:absolute lg:-left-32" />
         </div>
     </section>
-    
+
     <section class="min-h-screen py-20 px-10 text-center flex flex-col justify-center items-center">
         <p class="text-sm uppercase">FACILITIES</p>
         <h2 class="text-4xl lg:text-6xl font-extrabold mt-4">Core Features</h2>
-
+    
         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 lg:max-w-7xl w-full mx-auto mt-10 text-left">
             <div id="bottom1" class="p-8">
                 <i class="fas fa-bed text-4xl text-[#4C6AFF]"></i>
@@ -331,7 +322,7 @@
                 </div>
             </div>
         </div>
-
+    
         <div id="right" class="text-right lg:w-4/5 w-full mt-40">
             <p class="text-sm uppercase">DESSERT</p>
             <h2 class="text-4xl lg:text-6xl font-extrabold mt-4">Signature Desserts</h2>
@@ -450,61 +441,7 @@
         </div>
     </footer>
 
-    <script>
-        ScrollReveal().reveal('#bottom', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 2000 
-        });
-
-        ScrollReveal().reveal('#left', { 
-            origin: 'left', 
-            distance: '80px', 
-            duration: 2000 
-        });
-
-        ScrollReveal().reveal('#right', { 
-            origin: 'right', 
-            distance: '80px', 
-            duration: 2000 
-        });
-
-        ScrollReveal().reveal('#bottom1', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 2000 
-        });
-
-        ScrollReveal().reveal('#bottom2', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 2500 
-        });
-
-        ScrollReveal().reveal('#bottom3', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 3000 
-        });
-
-        ScrollReveal().reveal('#bottom4', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 3500 
-        });
-
-        ScrollReveal().reveal('#bottom5', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 4000 
-        });
-
-        ScrollReveal().reveal('#bottom6', { 
-            origin: 'bottom', 
-            distance: '80px', 
-            duration: 4500 
-        });
-    </script>
-
+    <script src="script.js"></script>
+    
 </body>
 </html>
