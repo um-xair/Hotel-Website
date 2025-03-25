@@ -8,7 +8,7 @@
 – A sleek and modern design offering a seamless browsing experience. The website showcases rooms, amenities, and booking features in a user-friendly layout with easy navigation. Elegant typography, soft color schemes, and interactive elements provide a luxurious feel for users while booking their perfect stay.
 
 ## **Live Demo**  
-Explore the site here: [Hotel Website Live Demo](https://r4xn.netlify.app/website/hotel.html)  
+Explore the site here: [Hotel Website Live Demo](https://r4xn.netlify.app/design/hotel.html)  
 
 ## **Features**  
 - 🏡 **Elegant Room Listings** – Browse through different room categories and find the perfect one for your stay.  
