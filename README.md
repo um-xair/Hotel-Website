@@ -1,4 +1,4 @@
-# 🏨 **Hotel Haven** | Your Perfect Stay Awaits
+# 🧬 R4XN Hotel Website Design HTML Tailwind CSS
 
 <div align="center">
   <img src="https://github.com/um-xair/Hotel-Website/blob/main/assets/hotel-website-main.jpg" alt="Hotel Haven Image" />
